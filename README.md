@@ -1,4 +1,4 @@
-<img src="mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
+<img src="notebooks/mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/markblokpoel/mathlib-examples/main?urlpath=lab/tree/notebooks/welcome.ipynb)
 [![mathlib Scala version support](https://index.scala-lang.org/markblokpoel/mathlib/mathlib/latest.svg)](https://index.scala-lang.org/markblokpoel/mathlib/mathlib)

@@ -136,13 +136,28 @@ You can check that you have the kernel correctly installed by entering the follo
 jupyter kernelspec list
 ```
 
-**Step 5**
+**Step 5 (Optional)**
+
+If you want to enable Plotly support for displaying graphs you need to install the Jupyterlab extension using the following Terminal command.
+
+```
+jupyter labextension install jupyterlab-plotly
+```
+
+You can check if the extension installed correctly using this command.
+
+```
+jupyter labextension list
+```
+
+**Step 6**
 
 Finally, download a copy of the repository from the releases page and unpack the files. Then navigate to the folder that contains the Scala notebook(s) and run:
 
 ```
 jupyter lab
 ```
+
 
 ## Licenses
 

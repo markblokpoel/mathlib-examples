@@ -1,4 +1,4 @@
-<img src="mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
+<img src="notebooks/mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/markblokpoel/mathlib-examples/main?urlpath=lab/tree/notebooks/welcome.ipynb)
 [![mathlib Scala version support](https://index.scala-lang.org/markblokpoel/mathlib/mathlib/latest.svg)](https://index.scala-lang.org/markblokpoel/mathlib/mathlib)
@@ -136,13 +136,28 @@ You can check that you have the kernel correctly installed by entering the follo
 jupyter kernelspec list
 ```
 
-**Step 5**
+**Step 5 (Optional)**
+
+If you want to enable Plotly support for displaying graphs you need to install the Jupyterlab extension using the following Terminal command.
+
+```
+jupyter labextension install jupyterlab-plotly
+```
+
+You can check if the extension installed correctly using this command.
+
+```
+jupyter labextension list
+```
+
+**Step 6**
 
 Finally, download a copy of the repository from the releases page and unpack the files. Then navigate to the folder that contains the Scala notebook(s) and run:
 
 ```
 jupyter lab
 ```
+
 
 ## Licenses
 

@@ -1,24 +1,25 @@
-<img src="notebooks/mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
+<img src="mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/markblokpoel/mathlib-examples/main?urlpath=lab/tree/notebooks/welcome.ipynb)
-[![mathlib Scala version support](https://index.scala-lang.org/markblokpoel/mathlib/mathlib/latest.svg)](https://index.scala-lang.org/markblokpoel/mathlib/mathlib)
 [![mathlib Scala version support](https://img.shields.io/badge/mathlib--examples-0.1.0--beta-green)](https://github.com/markblokpoel/mathlib-examples/releases)
+[![mathlib Scala version support](https://index.scala-lang.org/markblokpoel/mathlib/mathlib/latest.svg)](https://index.scala-lang.org/markblokpoel/mathlib/mathlib)
 [![license](https://img.shields.io/badge/license-%20GPL--3.0-blue)](https://github.com/markblokpoel/mathlib/blob/master/LICENSE)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.markblokpoel.com%2Fmathlib)](https://www.markblokpoel.com/mathlib)
+![Maven Central](https://img.shields.io/maven-central/v/com.markblokpoel/mathlib_2.13)
 
-# Welcome
+```mathlib``` is a library for Scala supporting functional programming that resembles
+mathematical expressions such as set theory, graph theory and probability theory.
+This library was developed to complement the theory development method outlined
+in the open education book [Theoretical modeling for cognitive science and psychology by
+Blokpoel and van Rooij (2021)](https://computationalcognitivescience.github.io/lovelace/).
 
-This repository contains a tutorial for learning how to write code using Scala and ```mathlib``` plus a collection of examples.
+The goal of this project is to facilitate users to write Scala code that is:
 
-## What is ```mathlib```?
-```mathlib``` is a supporting library for programming computer simulations for theoretical models. Models are expected to be formally defined using math (e.g., set, graph or probability theory). ```mathlib``` supports the programmer in writing code that is easier to:
+* 👓 easy to **read**, because ```mathlib``` syntax closely resembles mathematical notation
+* ✅ easy to **verify**, by proving that the code exactly implements the theoretical model (or not)
+* ❤️ easy to **sustain**, because newer versions of Scala and ```mathlib``` can run old code (backwards compatibility)
 
-* 🕶 read: ```mathlib``` syntax closely resembles mathematical notation
-* ✅ verify: prove that the simulation exactly implements the theoretical model
-* ❤ sustain: newer versions of Scala and ```mathlib``` can run old code (backwards compatibility)
-
-This library was developed to complement the theory development method outlined in the book Theoretical modeling for cognitive science and psychology by Blokpoel and van Rooij (2021). You can read the book for free at [https://computationalcognitivescience.github.io/lovelace/](https://computationalcognitivescience.github.io/lovelace/).
-
-The ```mathlib``` library github page is [https://github.com/markblokpoel/mathlib/](https://github.com/markblokpoel/mathlib/) and the Scaladex entry can be found at [https://index.scala-lang.org/markblokpoel/mathlib](https://index.scala-lang.org/markblokpoel/mathlib).
+The ```mathlib``` library github page is [https://github.com/markblokpoel/mathlib](https://github.com/markblokpoel/mathlib) and the companion website can be found at [https://www.markblokpoel.com/mathlib](https://www.markblokpoel.com/mathlib).
 
 ## Contents
 
@@ -157,7 +158,6 @@ Finally, download a copy of the repository from the releases page and unpack the
 ```
 jupyter lab
 ```
-
 
 ## Licenses
 

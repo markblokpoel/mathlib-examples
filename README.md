@@ -34,8 +34,6 @@ The ```mathlib``` library github page is [https://github.com/markblokpoel/mathli
   * [```00.00-scala_preface.ipynb```](tutorial/00.00-scala_preface.ipynb) Preface
   * [```01.[01-06]-scala_introduction.ipynb```](tutorial/01.01-scala_introduction-values_functions_and_types.ipynb) Introduction to Scala
   * [```00.[01-02]-set_theory.ipynb```](tutorial/02.01-set_theory-core_set_theory.ipynb) Coding set theory with ```mathlib```
-  * <span style="opacity: 0.2;">[```03-graph-theory.ipynb```](tutorial/03-graph-theory.ipynb) Coding graph theory with ```mathlib```. Not yet available.</span>
-  * <span style="opacity: 0.2;">[```04-probability-theory.ipynb```](tutorial/04-probability-theory.ipynb) Coding probability theory with ```mathlib```. Not yet available.</span>
 
 ## Running these notebooks
 

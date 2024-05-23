@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.markblokpoel.com%2Fmathlib)](https://www.markblokpoel.com/mathlib)
 ![Maven Central](https://img.shields.io/maven-central/v/com.markblokpoel/mathlib_2.13)
 [![Scaladoc](https://img.shields.io/maven-central/v/com.markblokpoel/mathlib_2.13?label=scaladoc)](https://markblokpoel.com/mathlib/scaladoc/mathlib/)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](notebooks/code_of_conduct.md)
 
 ```mathlib``` is a library for Scala supporting functional programming that resembles
 mathematical expressions such as set theory, graph theory and probability theory.

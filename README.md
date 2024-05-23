@@ -1,11 +1,12 @@
-<img src="mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
+<img src="notebooks/mathlib-logo-full.png" alt="MATHLIB logo" title="MATHLIB" style="width: 100%; max-width: 400px;" />
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/markblokpoel/mathlib-examples/main?urlpath=lab/tree/notebooks/welcome.ipynb)
-[![mathlib Scala version support](https://img.shields.io/badge/mathlib--examples-0.1.0--beta-green)](https://github.com/markblokpoel/mathlib-examples/releases)
+
 [![mathlib Scala version support](https://index.scala-lang.org/markblokpoel/mathlib/mathlib/latest.svg)](https://index.scala-lang.org/markblokpoel/mathlib/mathlib)
 [![license](https://img.shields.io/badge/license-%20GPL--3.0-blue)](https://github.com/markblokpoel/mathlib/blob/master/LICENSE)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.markblokpoel.com%2Fmathlib)](https://www.markblokpoel.com/mathlib)
 ![Maven Central](https://img.shields.io/maven-central/v/com.markblokpoel/mathlib_2.13)
+[![Scaladoc](https://img.shields.io/maven-central/v/com.markblokpoel/mathlib_2.13?label=scaladoc)](https://markblokpoel.com/mathlib/scaladoc/mathlib/)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 ```mathlib``` is a library for Scala supporting functional programming that resembles
 mathematical expressions such as set theory, graph theory and probability theory.
@@ -13,27 +14,28 @@ This library was developed to complement the theory development method outlined
 in the open education book [Theoretical modeling for cognitive science and psychology by
 Blokpoel and van Rooij (2021)](https://computationalcognitivescience.github.io/lovelace/).
 
-The goal of this project is to facilitate users to write Scala code that is:
+The goal of this library is to facilitate users to implement simulations of their formal theories. ```mathlib``` and
+Scala code is:
 
 * 👓 easy to **read**, because ```mathlib``` syntax closely resembles mathematical notation
 * ✅ easy to **verify**, by proving that the code exactly implements the theoretical model (or not)
-* ❤️ easy to **sustain**, because newer versions of Scala and ```mathlib``` can run old code (backwards compatibility)
+* ❤️ easy to **sustain**, older versions of Scala and mathlib can easily be run on newer machines
 
 The ```mathlib``` library github page is [https://github.com/markblokpoel/mathlib](https://github.com/markblokpoel/mathlib) and the companion website can be found at [https://www.markblokpoel.com/mathlib](https://www.markblokpoel.com/mathlib).
 
 ## Contents
 
 * ```examples/```
-  * ```coherence.ipynb``` Not yet available.
-  * ```selecting-invitees.ipynb``` Not yet available.
-  * ```subset-choice.ipynb``` Not yet available.
-  * ```vertex-cover.ipynb``` Not yet available.
+  * [```coherence.ipynb```](examples/coherence.ipynb) Coherence
+  * <span style="opacity: 0.2;">[```selecting-invitees.ipynb```](examples/selecting-invitees.ipynb) Not yet available.</span>
+  * <span style="opacity: 0.2;">[```subset-choice.ipynb```](examples/subset-choice.ipynb) Not yet available.</span>
+  * <span style="opacity: 0.2;">[```vertex-cover.ipynb```](examples/vertex-cover.ipynb) Not yet available.</span>
 * ```tutorial/```
   * [```00.00-scala_preface.ipynb```](tutorial/00.00-scala_preface.ipynb) Preface
   * [```01.[01-06]-scala_introduction.ipynb```](tutorial/01.01-scala_introduction-values_functions_and_types.ipynb) Introduction to Scala
   * [```00.[01-02]-set_theory.ipynb```](tutorial/02.01-set_theory-core_set_theory.ipynb) Coding set theory with ```mathlib```
-  * [```03-graph-theory.ipynb```](tutorial/03-graph-theory.ipynb) Coding graph theory with ```mathlib```. Not yet available.
-  * [```04-probability-theory.ipynb```](tutorial/04-probability-theory.ipynb) Coding probability theory with ```mathlib```. Not yet available.
+  * <span style="opacity: 0.2;">[```03-graph-theory.ipynb```](tutorial/03-graph-theory.ipynb) Coding graph theory with ```mathlib```. Not yet available.</span>
+  * <span style="opacity: 0.2;">[```04-probability-theory.ipynb```](tutorial/04-probability-theory.ipynb) Coding probability theory with ```mathlib```. Not yet available.</span>
 
 ## Running these notebooks
 
